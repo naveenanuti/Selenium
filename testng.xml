@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/USER/IdeaProjects/Selenium">
+        <parameter name="username" value="naveenreddyanuti@gmail.com"></parameter>
+        <parameter name="password" value="naveen@4225"></parameter>
+        <parameter name="BROWSER" value="firefox"></parameter>
+     <!--   <groups>
+            <run>
+                <include name="int"/>
+&lt;!&ndash;                <include name="uat"/>&ndash;&gt;
+            </run>
+        </groups>-->
+        <classes>
+         <!--   <class name="testng.Media"/>
+            <class name = "testng.Mail"/>
+            <class name="testng.Mnc"/>
+            <class name="login.Search"/>-->
+            <class name="login.Ecomm"/>
+        </classes>
+    </test>
+</suite>

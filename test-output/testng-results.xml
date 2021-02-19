@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="All Test Suite" duration-ms="21576" started-at="2020-12-20T14:31:46 IST" finished-at="2020-12-20T14:32:08 IST">
+    <groups>
+    </groups>
+    <test name="C:/Users/USER/IdeaProjects/Selenium" duration-ms="21576" started-at="2020-12-20T14:31:46 IST" finished-at="2020-12-20T14:32:08 IST">
+      <class name="login.Ecomm">
+        <test-method status="PASS" signature="browserOpen(java.lang.String)[pri:0, instance:login.Ecomm@25b485ba]" name="browserOpen" is-config="true" duration-ms="10650" started-at="2020-12-20T14:31:46 IST" finished-at="2020-12-20T14:31:57 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserOpen -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:login.Ecomm@25b485ba]" name="login" duration-ms="7799" started-at="2020-12-20T14:31:57 IST" finished-at="2020-12-20T14:32:04 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[naveenreddyanuti@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[naveen@4225]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="browserClose()[pri:0, instance:login.Ecomm@25b485ba]" name="browserClose" is-config="true" duration-ms="3044" started-at="2020-12-20T14:32:04 IST" finished-at="2020-12-20T14:32:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+      </class> <!-- login.Ecomm -->
+    </test> <!-- C:/Users/USER/IdeaProjects/Selenium -->
+  </suite> <!-- All Test Suite -->
+</testng-results>
